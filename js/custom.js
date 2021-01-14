@@ -1,5 +1,5 @@
 const APP_PARAMS = {
-    JOKE_API: 'http://api.icndb.com/jokes/random',
+    JOKE_API: 'https://api.icndb.com/jokes/random',
     DATA_FORMAT_ERROR: 'Incorrect data format'
 };
 
