@@ -81,5 +81,5 @@ $(function() {
                 break;
         }
     });
-    $('#getByAjax').click();
+    // $('#getByAjax').click();
 });
