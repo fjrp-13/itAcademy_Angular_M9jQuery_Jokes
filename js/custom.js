@@ -1,7 +1,8 @@
 const APP_PARAMS = {
     JOKE_API: 'https://api.icndb.com/jokes/random',
-    JOKE_API_KO: 'https://api.icndb2.com/jokes/random',
-    JOKE_API_NO_KO: 'https://api.icndb.com/jokes22222/random',
+    JOKE_API_KO_1: 'https://api.icndb.com/xxx', // parseerror / Unexpected end of JSON input
+    JOKE_API_KO_2: 'https://api.icndb2.com/jokes/random', // error / Failed to fetch
+    JOKE_API_NO_KO: 'https://api.icndb.com/jokes22222/random', // OK pq retorna un JSON amb jokes
     DATA_FORMAT_ERROR: 'Incorrect data format'
 };
 
