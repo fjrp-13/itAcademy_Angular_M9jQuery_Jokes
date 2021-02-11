@@ -1,5 +1,5 @@
 const APP_PARAMS = {
-    JOKE_API: 'https://api.icndb.com/jokes/random',
+    JOKE_API: 'https://api.icndb2.com/jokes/random',
     DATA_FORMAT_ERROR: 'Incorrect data format'
 };
 
@@ -78,4 +78,5 @@ $(function() {
                 break;
         }
     });
+    $('#getByAjax').click();
 });
